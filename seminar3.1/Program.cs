@@ -15,3 +15,4 @@ int digit = Convert.ToInt32(Console.ReadLine());
 if (digit < 10000 || digit > 99999) Console.Write("Число не пятизначное");
 else if (CheckPalindrome(digit) == true) Console.Write($"Число {digit} является палиндромом");
 else Console.Write($"Число {digit} не является палиндромом");
+
