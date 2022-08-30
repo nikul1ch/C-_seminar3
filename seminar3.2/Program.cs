@@ -23,12 +23,3 @@ double DistanceBetweenPoints(int[] a, int[] b)
 }
 
 Console.Write($"Расстояние между точкой А({A[0]}, {A[1]}, {A[2]}) и точкой B({B[0]}, {B[1]}, {B[2]}) равно {DistanceBetweenPoints(A, B)}");
-
-
-
-
-// int digit = Convert.ToInt32(Console.ReadLine());
-
-// if (digit < 10000 || digit > 99999) Console.Write("Число не пятизначное");
-// else if (CheckPalindrome(digit) == true) Console.Write($"Число {digit} является палиндромом");
-// else Console.Write($"Число {digit} не является палиндромом");
